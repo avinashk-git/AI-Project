@@ -1,8 +1,10 @@
-numbers=[30,10,-45,5,20]
-print(numbers)
-numbers.sort(reverse=True)
-numbers2=numbers
-numbers2[2]
-print(numbers2[0:4:2])
-print(numbers)
-print(f"second largest number {numbers[1]}")
+
+def sum1(arr):
+    total = 0
+    for i in my_list:
+     total+=i
+    return total
+
+my_list=[1,2,3,4]
+ans=sum1(my_list)
+print(ans)
